@@ -17,7 +17,7 @@ spec:
       - name: my-container
         image: saeedamadan74/coming-soon:4
         ports:
-        - containerPort: 81
+        - containerPort: 80
 
 
 ---
@@ -32,6 +32,6 @@ spec:
   ports:
   - protocol: TCP
     port: 81
-    targetPort: 81
+    targetPort: 80
     nodePort: 30085
   type: LoadBalancer
