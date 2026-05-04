@@ -14,4 +14,4 @@ spec:
           service:
             name: comming-soon-service
             port:
-              number: 80
+              number: 81

@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: saeedamadan74/coming-soon:2
+        image: saeedamadan74/coming-soon:4
         ports:
-        - containerPort: 80
+        - containerPort: 81
 
 
 ---
@@ -31,7 +31,7 @@ spec:
     app: my-app
   ports:
   - protocol: TCP
-    port: 80
-    targetPort: 80
-    nodePort: 30080
+    port: 81
+    targetPort: 81
+    nodePort: 30085
   type: LoadBalancer
